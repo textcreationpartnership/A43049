@@ -1,0 +1,454 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The plea for the Common prayer book in two parts / by James Harwood.</title>
+            <author>Harwood, James.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1654</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A43049</idno>
+            <idno type="STC">Wing H1101</idno>
+            <idno type="STC">ESTC R25414</idno>
+            <idno type="EEBO-CITATION">08951597</idno>
+            <idno type="OCLC">ocm 08951597</idno>
+            <idno type="VID">42076</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A43049)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 42076)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1286:15)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The plea for the Common prayer book in two parts / by James Harwood.</title>
+                  <author>Harwood, James.</author>
+               </titleStmt>
+               <extent>29, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for the Author,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1654.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Union Theological Seminary Library, New York.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England. --  Book of common prayer.</term>
+               <term>Church of England --  Liturgy.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-06</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2011-06</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:42076:1" rendition="simple:additions"/>
+            <p>THE PLEA FOR The Common Prayer Book. In two Parts.</p>
+            <p>By <hi>James Harwood,</hi> B. D.</p>
+            <q>
+               <p>Let all things be done in decency and in order.</p>
+               <bibl>
+                  <hi>1. Cor. 14 40.</hi>
+               </bibl>
+            </q>
+            <q>
+               <p>Jeruſalem is like a City at unity with<g ref="char:EOLhyphen"/>in it ſelfe.</p>
+               <bibl>
+                  <hi>Pſal. 120.3.</hi>
+               </bibl>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for the Author. 1654.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:42076:2"/>
+            <pb facs="tcp:42076:2"/>
+            <head>To the Right Honorable, the Counteſſe of <hi>Pem<g ref="char:EOLhyphen"/>broke</hi> and <hi>Mont<g ref="char:EOLhyphen"/>gomery,</hi> &amp;c.</head>
+            <p>
+               <seg rend="decorInit">R</seg>Ight honorable and truely vertuous Lady, elect in the Lord, your favo<g ref="char:EOLhyphen"/>rable accepting with the hand of Charity; <hi>my Lords Prayer unclasped,</hi> oblieges mee in more ſpeciall, to dedicate this ſhort Treatiſe, cald <hi>A Plea for the Common Prayer Booke,</hi> unto your ſingular goodneſſe. I have found our Churches Prayers ſet light, and by thoſe who ought
+<pb facs="tcp:42076:3"/>to have beene as ſhining lights in the midſt of this our <hi>more then E<g ref="char:EOLhyphen"/>gyptian darkeneſſe.</hi> This is it hath made mee ſet pen to paper, in ſome poore meaſure to vindicate as our Lords Prayer before, ſo now the Prayers of our Church. I am ſure to meet with <hi>Hericano's</hi> and the grand guſts of malecon<g ref="char:EOLhyphen"/>tented ſpirits: I humbly therfore crave leave this my decurt Trea<g ref="char:EOLhyphen"/>tiſe may ſhroude it ſelfe under the Lee of your acceptance; and if the Lord in his mercy allay theſe windes of boyſt<gap reason="illegible: missing" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rous ca<g ref="char:EOLhyphen"/>lumniators of our Churches Ser<g ref="char:EOLhyphen"/>vice, within my ſhort time I have heer to ſtay, I ſhall put to Sea once more again, and purpoſe in my next Bottome, to Land that Staple Commodity, <hi>A Treatiſe upon the lawfull Calling of our Mini<g ref="char:EOLhyphen"/>ſtry,</hi> according to the Canons and Conſtitutions of our Mother, Church of England. A Subject,
+<pb facs="tcp:42076:3"/>I aſſure you, moſt fit to bee layd open and maintayned, leſt in a very ſhort time, we loſe the name <hi>Chriſtian.</hi> Madam, I am loth to promiſe much, and perform no<g ref="char:EOLhyphen"/>thing: therefore this ſhort I rea<g ref="char:EOLhyphen"/>liſe I devote to your ſervice, and ſubſcribe my ſelfe, as bound,</p>
+            <closer>
+               <signed>Your moſt Humble ſervant, JAMES HARVVOOD.</signed>
+            </closer>
+         </div>
+         <div type="prayer">
+            <pb facs="tcp:42076:4"/>
+            <head>The Author of the worke begins his Treatiſe with a Divine Prayer, put up to the Au<g ref="char:EOLhyphen"/>thor and finiſher of our Faith, <hi>Chriſt Jeſus,</hi> God bleſſed for ever, Amen.</head>
+            <opener>
+               <salute>THE PRAYER.</salute>
+            </opener>
+            <p>MOſt Divine power, I am un<g ref="char:EOLhyphen"/>worthy to tread upon the Earth thy footſtoole, more un<g ref="char:EOLhyphen"/>worthy to ſpeak unto thee, my God and my King, yet humbly upon the bended knees of my body, and from the bottom of my heart, I beg thy Heavenly pro<g ref="char:EOLhyphen"/>tection, from the violence of unruly men: looke O Lord upon the woefull warfare of thy Church, and no longer ſuffer her children to wound her to the heart blood by diviſion: ſay O Lord it is ſufficient and divert the judgment:
+<pb facs="tcp:42076:4"/>bring us to an unity in Diſcipline as in Doctrine, that as wee all acknow<g ref="char:EOLhyphen"/>ledge one God, one Faith, one Bap<g ref="char:EOLhyphen"/>tiſme for the remiſſion of our ſins in Chriſt Jeſus, ſo wee all of us with one heart, and one mind, and one ſpirit, may put up our joynt praiers to thee in thy Church; Lord open the eyes of the diſſenters that they may ſee what dam<g ref="char:EOLhyphen"/>mage accrues the Doctrine of thee the Lord Jeſus, for want of uniformity in Church ſervice, our ſins have puld up<g ref="char:EOLhyphen"/>on us this diviſion: grant us true ſor<g ref="char:EOLhyphen"/>row for our ſin, and then we ſhall be in hopes of an union. O give us the ſpirit of unity in the bond of peace, while we joyne together like <hi>Sampſons</hi> foxes; all the choice fruit is burnt up: O that we might once more hand in hand, like <hi>Peter</hi> and <hi>John,</hi> goe up unto the Temple and pray. Let not the redun<g ref="char:EOLhyphen"/>dancy of the ſpirit, make the people ſet light thy ſet forme of prayer, and the prayers of the Church, but ſince both thy precept and practiſe juſtifies a ſet
+<pb facs="tcp:42076:5"/>forme of Prayer; Pray thee deare Sa<g ref="char:EOLhyphen"/>viour, ſend downe thy Spirit, to point the people of England out the way to our common Prayers: if ought were in them tended to the diſhonour of thy name, wee would not expect a bleſſing, ſince all is conſenta<gap reason="illegible: missing" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eous to thy Holy Word, Lord ſay the word and the Peo<g ref="char:EOLhyphen"/>ple ſhall bee obedient; when wee are weakeſt thou art ſtrongeſt: and now that there is no Law to compell the Peo<g ref="char:EOLhyphen"/>ple to come in, ſend abroad thoſe thy ſervants, the ſacred ſuggeſti<g ref="char:EOLhyphen"/>ons of thy Spirit, and thy houſe it ſhall be filled. Lord thou knoweſt what harſh cenſures I ſhall under goe for the diſ<g ref="char:EOLhyphen"/>charge of this my conſcience; I flie to thee for ſuccor, and beg that of thy mer<g ref="char:EOLhyphen"/>cifull goodneſſe, thou wouldſt preſerve from all perills and dangers of body and Soule.</p>
+            <closer>
+               <signed>Thy dejected, Servant, <hi>James Harwood.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:42076:5"/>
+            <list>
+               <item>A Plea for the Common Pray<g ref="char:EOLhyphen"/>er Booke.</item>
+               <item>Six Arguments to prove a ſet form of prayer lawfull.</item>
+               <item>Seaven <hi>Mementoes</hi> to the diſ<g ref="char:EOLhyphen"/>ſenting Miniſtry.</item>
+               <item>Three Inferences from every <hi>Memento.</hi>
+               </item>
+               <item>The four ſould Ayme of the Presbyterian Miniſter.</item>
+               <item>Six unexpected Iſſues.</item>
+               <item>A Parrallell betwixt the Papiſt and Presbyterian Miniſter.</item>
+               <item>The <hi>Intravit.</hi>
+               </item>
+               <item>The <hi>Exivit.</hi>
+               </item>
+               <item>The <hi>Vale.</hi>
+               </item>
+               <item>The Supplicat for reſtorement of the Common Prayer Booke.</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="treatise">
+            <pb facs="tcp:42076:6"/>
+            <p>A Plea, for a reprieve, after judge<g ref="char:EOLhyphen"/>ment poſt upon the Common Pray<g ref="char:EOLhyphen"/>er Booke, or a ſhort and charitable conſtruction upon the forbidding the Common Prayer Booke, to be read in the Churches of Chriſt, which will bring much of it into uſe, <hi>&amp; nemo debet contradicere.</hi>
+            </p>
+            <p>And as for the remainder, you know what is ſayd, our Law condem<g ref="char:EOLhyphen"/>neth none, untill he be heard.</p>
+            <p>In all humility wee who are confor<g ref="char:EOLhyphen"/>miſts but peaceable, beg leave to bee heard in a caſe ſo much concerning the glorie of God, the peace of our own conſciences, and uniformity in Divine ſervice, and if ought bee found guilty in our Churches Rubrick, ſenting ei<g ref="char:EOLhyphen"/>ther of Hereſie or ſuperſtition; we are in all ſobriety willing to bee better learnt, and ſhall ſubmit.</p>
+            <pb facs="tcp:42076:6"/>
+            <p> Wee dare not lay aſide, and as wee hope by the ſtricktneſſe of the laſt com<g ref="char:EOLhyphen"/>mand, it was never intended wee ſhould, though injoyned to be uſed and read by the Common Prayer Booke, theſe holy Rellicks of Chriſtianity.</p>
+            <div type="part">
+               <p>THe Ten Commandements, for they were written by Gods owne hand, Exod, 20.</p>
+               <p n="2">2. The Lords Prayer, for that was made by Chriſt Jeſus, and by him given us in command to ſay, Luke 11. Chapt. Verſ. 2.</p>
+               <p n="3">3. The Sacrament of the Lords Sup<g ref="char:EOLhyphen"/>per, for that was inſtituted by our Savi<g ref="char:EOLhyphen"/>our, whoſe ſelfe ſaith, do this in remem<g ref="char:EOLhyphen"/>brance of me.</p>
+               <p n="4">4. The Sacrament of Baptiſme, for the command is, goe and teach all Nations, Baptizing them <hi>In the Name of the Father, Son, and Holy Ghoſt,</hi> Mat. 28.19. Verſ.</p>
+               <p n="3">3. <hi>Davids</hi> Pſalmes, the moſt rigid
+<pb n="12" facs="tcp:42076:7"/>count them innocent, ſince ſeperated from the Organs,</p>
+               <p n="6">6. Firſt &amp; ſecond leſſon is likwiſe Scrip<g ref="char:EOLhyphen"/>ture, &amp; that I hope is not yet our of date.</p>
+               <p n="7">7. The Holy Hymnes are likewiſe warranted by the word of God.</p>
+               <p n="8">8. The Epiſtle &amp; Goſpel are alſo Scrip<g ref="char:EOLhyphen"/>ture &amp; fitted for the times &amp; ſeaſons, the better to make us bear them in remem<g ref="char:EOLhyphen"/>brance.</p>
+               <p n="9">9. The preparative verſes, wee finde verſes of the Chapters.</p>
+               <p>And thus the preparative verſes which begin the ſervice,<note place="margin">The Col<g ref="char:EOLhyphen"/>lect.</note> the Lords Prayer, <hi>Da<g ref="char:EOLhyphen"/>vids</hi> Pſalmes, firſt and ſecond Leſſon, the Holy Hymnes, the Epiſtle and Goſpell, the ten Commandements, the bleſſed Sa<g ref="char:EOLhyphen"/>craments, they all being part of the Holy bible, we in charity co<g ref="char:cmbAbbrStroke">̄</g>ceiv, though they were enjoyned by the Common Prayer Booke, you have not forbid to be uſed, &amp; therfore without receiving the brand of obſtinate, wee nothing doubt of free leave for us, who are Orthodox Divines, to uſe them in our Churches. Wee have ſomwhat more to offer, and doe deſire aught underſtanding, and a favourable into pretation of our candid meaning.</p>
+               <p n="1">1. That wee may have liberty to ſay
+<pb n="13" facs="tcp:42076:7"/>the <hi>Gloria Patri,</hi> for this fragment of the Tongue of Canaan wee learnt of the Angells Luk. 2. who are ſet to bee our ſamplers Luk. 11. Againe this Arti<g ref="char:EOLhyphen"/>cle of our Faith was oppoſed by the Ari<g ref="char:EOLhyphen"/>ans and Macedonians, the one denying the Godhead of Chriſt, the other the God<g ref="char:EOLhyphen"/>head of the Holy Ghoſt, and to ſhew how wee who hold the Catholike A<g ref="char:EOLhyphen"/>poſtolike Faith deteſt theſe Hereſies, for this cauſe were brought into our Chur<g ref="char:EOLhyphen"/>ches ſervice; theſe words, <hi>Glory be to the Father &amp; to the Son, &amp; to the Holy Ghoſt.</hi>
+               </p>
+               <p n="2">2. Wee deſire to make confeſſion of our Faith cald <hi>the Apoſtles Creed,</hi> ſince it is the confeſſion of the Church Catho<g ref="char:EOLhyphen"/>like, and not an Article in it but Scrip<g ref="char:EOLhyphen"/>ture prooſe, as alſo the <hi>Nicene</hi> and <hi>A<g ref="char:EOLhyphen"/>thanaſius</hi> his Creed.</p>
+               <p n="3">3. To make confeſſion of our ſins in the publike place of Gods worſhip ſince Gods word doth injoyne us to confeſſe one unto another Jam. 5.16. yet more, their <hi>confeſſing</hi> and <hi>Praying,</hi> are coupled together, to note, as the Church is the houſe of Prayer, ſo a fit place for confeſſion of ſinne to bee made in.</p>
+               <p n="4">4. For us the Miniſters of the
+<pb n="14" facs="tcp:42076:8"/>Lord Jeſus, to declare to the people be<g ref="char:EOLhyphen"/>ing penitent, <hi>Remiſſion of Sin,</hi> eſpecially conſidering to winne home we mode<g ref="char:EOLhyphen"/>rate our claime, Joh. the 20 23.</p>
+               <p n="5">5. To uſe the <hi>Collects</hi> after the E<g ref="char:EOLhyphen"/>piſtle and the Goſpell, ſince they give the moſt over went before, and all that is in<g ref="char:EOLhyphen"/>tended is, that what was lately read in your hearing, you by praying, may bee enſured of the bleſſing,</p>
+               <p n="6">6. And as for that <hi>Letany</hi> where with ſo many thouſands have beene in love a long time, being a prayer fitted for al occaſions and al neceſſities at al times, we humbly crave leave wee may uſe it in our Churches, till either that ſect confute it, who will have no King to rule over them upon earth but Chriſt, or that fra<g ref="char:EOLhyphen"/>ternity of the new ſo cald Miniſtrey, who will bring all the civill power un<g ref="char:EOLhyphen"/>der the verge of their new ſprung up diſ<g ref="char:EOLhyphen"/>cipline, and upon contempt of it diſ<g ref="char:EOLhyphen"/>throne them; neither is this the totall of our deſire, but more, wee humbly crave a ſober conference with our ſuppoſed ſcholaſtick opponents, not doubting but wee ſhall juſtifie the worke of our reve<g ref="char:EOLhyphen"/>rend reformers and if we he found im<g ref="char:EOLhyphen"/>becill, or unable, peaceably we ſhall de<g ref="char:EOLhyphen"/>cline
+<pb n="15" facs="tcp:42076:8"/>and ſubmit to what commanded.</p>
+               <p>And whereas I am confident the great fault they have found againſt our Com<g ref="char:EOLhyphen"/>mon Prayer Booke is <hi>de modo</hi> for that <hi>non</hi> for that <hi>materia.</hi> for that the Churches Prayers are a ſet form of Prayer,<note place="margin">The Lords Prayer un<g ref="char:EOLhyphen"/>claſped Page. 324.</note> I have already anſwered that great <hi>grand Goliah objection,</hi> and recei<g ref="char:EOLhyphen"/>ved no hurt by the weavers Beame.</p>
+               <p>And now that the people of God may more perfectly be informed, and for ever convinced, how a ſet forme of Prayer is lawfull to uſe in the Churches of Chriſt Jeſus. <hi>let them know.</hi>
+               </p>
+               <p n="1">1. The Orthodox Divines of our mo<g ref="char:EOLhyphen"/>ther Church of England are able in eve<g ref="char:EOLhyphen"/>ry Century from the time of the primi<g ref="char:EOLhyphen"/>tive Church,<note place="margin">Six vallid reaſons to prove the lawful uſe of a ſet form of Prayer.</note> to make it appeare, how it hath beene the univerſall practiſe of the Church Catholick, to uſe a ſet forme of Prayer: <hi>O ſtand and inquire for the good old way.</hi>
+               </p>
+               <p n="2">2. <hi>Arg.</hi> If any wil ſay our Church Prayers blunt the edge of Devotion, for that <hi>ſet formes,</hi> why then do they approve of <hi>Davids</hi> Pſalmes to be read, ſo full of ſet formes of Prayer?</p>
+               <p>
+                  <hi>O be guided by a man after Gods own heart.</hi>
+               </p>
+               <p n="3">
+                  <pb n="16" facs="tcp:42076:9" rendition="simple:additions"/> 3. <hi>Arg.</hi> We have <hi>Chriſt his Precept</hi> to warrant a <hi>ſet forme of Prayer,</hi> Luke 11 2 <hi>O let Chriſt his word be your war<g ref="char:EOLhyphen"/>rant.</hi>
+               </p>
+               <p n="4">4. <hi>Arg.</hi> We have <hi>Chriſt his practiſe</hi> to juſtifie our Practiſe who prayd three times in the Garden of <hi>Geethlemene,</hi> u<g ref="char:EOLhyphen"/>ſing the ſelfe ſame words. Matth. 26.36. to the 45 verſe. O remember what him ſelfe ſaith, <hi>Learn of me.</hi>
+               </p>
+               <p n="5">5. <hi>Arg.</hi> A ſet forme hath beene in uſe as under the Goſpel, ſo under the Law. King <hi>Hizekias</hi> is my witneſſe. 2. Chro. 29 the later part of the 35. verſe.</p>
+               <p>And thus my deare Brethren, if either the practice of the King of Juda,<note place="margin">The Collect</note> the practiſe of Chriſt Jeſus, King of Kings, the precept of Chriſt, David his ſet formes, or the Church Catholike, be worthy of imitation, wee have made no innovation upon the people of our God, but in truth and ſober<gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>es deſire you to embrace our <hi>Churches Prayers</hi> eſpecially conſidering <hi>a ſet form <gap reason="illegible: faint" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </hi> warranted by the <hi>Lord of Heaven and Earth</hi> Numb 6 from the 22 verſe to the end of the <gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>6. where ſaid, and by the Lord unto <hi>Moſes Speake unto Aaron and his ſons ſaying on this wiſe ye ſhall bleſſe the children of Iſraell.
+<pb n="17" facs="tcp:42076:9" rendition="simple:additions"/>ſaying unto them the Lord bleſſe thee, and keepe thee, the Lord make his face ſhine upon thee, and bee gratious unto thee, the Lord lift up his countenance upon thee, and give thee Peace.</hi>
+                  <note place="margin">Note.</note> And thus <hi>Aaron</hi> the Prieſt for his time, and his ſons for after times, were to ſay theſe <hi>Common Pray<g ref="char:EOLhyphen"/>ers,</hi> and enjoyned to doe it by the Lord: What Heaven and Earth thinkes fit to goe for currant, let duſt and aſhes not dare to diſalow; I never met with any could juſtly tax the ſubject matter of our <hi>ſervice Booke;</hi> and now wee having ſuch a Cloud of witneſſes to teſtifie the lawfulneſſe of a ſet forme, its high time for the bretheren of the ſeperation to come home, yet if they will not commu<g ref="char:EOLhyphen"/>nicate with us, O thou who ſits in Hea<g ref="char:EOLhyphen"/>ven ſo diſpoſe of the hearts of men upon earth, that wee may have free liberty to uſe our Churches ſet form of Prayers, and we ſhall pray.</p>
+            </div>
+            <div type="part">
+               <pb n="18" facs="tcp:42076:10"/>
+               <head>The Second Part of the Plea for the Common Prayer Book.</head>
+               <argument>
+                  <p>Contayning ſeven <hi>Mementoes</hi> for the diſſenting Brethren, who before theſe late warres were lawfully ordayned Miniſters, according to the Conſtitutions of the Church of England, but ſince not by compulſion, but voluntarily, have deſerted the Common Prayer Book, with three Inferences, drawne from every <hi>Memento</hi> propoſed unto them, by <hi>James Hear wood.</hi>
+                  </p>
+               </argument>
+               <epigraph>
+                  <q>
+                     <p>Nevertheleſſe I have ſomething againſt thee, becauſe thou haſt left thy firſt love.</p>
+                     <bibl>
+                        <hi>Revel. 2.4.</hi>
+                     </bibl>
+                  </q>
+               </epigraph>
+               <head>
+                  <pb n="19" facs="tcp:42076:10"/> His Epiſtle to the diſſenting Brethren.</head>
+               <p>
+                  <hi>IT is not malice but conſcience hath extracted from mee, theſe</hi> Memen<g ref="char:EOLhyphen"/>toes. Memento <hi>was spoke too late to</hi> Dives, <hi>theſe in good time to you my Brethren: you know; better are the reproofes of a friend, then the kiſſes of an enemy: the one may cure, in the other there is danger. If the Ulcer be overgrown, the inciſion muſt be deep: if my Lance bee too sharp, it is, for that your ſore is feſtred: I ſhall bee glad of your recovery, and pray, as for the health of your bodies, ſo your ſouls, and ſubſcribe my ſelfe, as bound</hi>
+               </p>
+               <p>
+                  <hi>God and the Churches Servant.</hi>
+               </p>
+               <p n="1">
+                  <pb n="20" facs="tcp:42076:11"/> 1. <hi>Memento.</hi> 
+                  <note place="margin">There oath was taken whe<g ref="char:cmbAbbrStroke">̄</g> made D<gap reason="illegible: missing" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>acons, Miniſter, and inſtituted.</note> Remember vour tri<g ref="char:EOLhyphen"/>partite oath, like a three fold cord, not eaſie to bee broken, which did bind you to uſe the Common Prayers in your Churches.</p>
+               <list>
+                  <item>1. <hi>Inference.</hi> No Potentate can ſe<g ref="char:EOLhyphen"/>curely confide in their civill odedience, who doe make no matter of ſuch religi<g ref="char:EOLhyphen"/>ous ties and obligations.</item>
+                  <item>2. <hi>Inference.</hi> I cannot ſee, how there can bee any heavenly efficacie in their preaching, who have made ſo little reck<g ref="char:EOLhyphen"/>ning of their ſwearing.</item>
+                  <item>3. <hi>Inference.</hi> Thoſe preachers doe o<g ref="char:EOLhyphen"/>ver highly prize their preferments, who to ſave their benefices, make Shipwracke of their conſciences.</item>
+               </list>
+               <p n="2">2. <hi>Memento.</hi> Remember you could never yet convince us, how our Com<g ref="char:EOLhyphen"/>mon Prayers were either Idolatrous, or ſuperſtitious.</p>
+               <list>
+                  <item>1. <hi>Inference.</hi>
+                     <note place="margin">Th<gap reason="illegible: missing" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> law was upon ſuſpicion to hang, and after in open Court heare the witneſſes.</note> You are guilty of more ſeverity, than the ancient Arch Dukes of Auſtria, who firſt condemned, and af<g ref="char:EOLhyphen"/>ter the death of the felon went to tryall; <hi>It is more favour than our Common Pray<g ref="char:EOLhyphen"/>er Booke hath yet found from you.</hi>
+                  </item>
+                  <item>2. <hi>Inference.</hi> Theſe children of the Church reſemble young Vipers, for they
+<pb n="21" facs="tcp:42076:11"/>kill their mother that they may live themſelves: <note place="margin">The yong Viper gnawes a way through her dammes bowells</note> 
+                     <hi>It is an infamous life is pre<g ref="char:EOLhyphen"/>ſerv'd by the death of the dambe.</hi>
+                  </item>
+                  <item>3. <hi>Inference.</hi> You muſt needs bee gi<g ref="char:EOLhyphen"/>ven over to ſtrong deluſions, to cry down Common Prayers, and ſhew us no cauſe.</item>
+               </list>
+               <p>
+                  <hi>It is high time therfore to ſet pen to Paper, and to ſay ſomething though you can ſay but little.</hi>
+               </p>
+               <p n="3">3. <hi>Memento.</hi> Remember the reve<g ref="char:EOLhyphen"/>rend compilers of the Churches ſervice Book, whoſe very aſhes from age to age, will have a civill reſpect from all good Chriſtians.</p>
+               <list>
+                  <item>1. <hi>Inference.</hi> You are higher concei<g ref="char:EOLhyphen"/>ted of your ſelves than the Chinoes, who ſay they themſelves have two eyes, wee of Europe one, and all the world beſide blinde. <hi>It ſeemes you would bee the onely ſeeing men and none elſe</hi>
+                  </item>
+                  <item>2. <hi>Inference.</hi> You prize your owne judgements above all our ancient reformers, whilſt all that, which they have compiled, you have wholly diſalo wed, <hi>by this it ſeemes all our Church Prayers were impertinent, or elſe your ſentence paſt very rigid.</hi>
+                  </item>
+                  <item>3. <hi>Inference.</hi> You have as much as in
+<pb n="22" facs="tcp:42076:12"/>you lie, diſhonoured, the reverend fa<g ref="char:EOLhyphen"/>thers of the reformation, whilſt with <hi>Cham</hi> you endeavoured to uncover their nakeneſſe; whereas if there had beene a blemiſh, you ought with <hi>Shem</hi> and <hi>Ja<g ref="char:EOLhyphen"/>phet,</hi> to have gone backward, and with ſorrow and reluctancy covered the ſports in their fices.</item>
+               </list>
+               <p n="4">4. <hi>Memento.</hi> Remember, it is not long, ſince the <hi>Common Prayer Booke</hi> was a cogniſce<g ref="char:cmbAbbrStroke">̄</g>ce to diſtinguiſh a <hi>confor<g ref="char:EOLhyphen"/>miſt Proteſtant,</hi> from a <hi>Recuſant,</hi> till you forced our <hi>Church Service</hi> out of the Church doores.</p>
+               <list>
+                  <item>1. <hi>Inference.</hi> You have robd us of that peece of the holy tounge, the <hi>Sibbo<g ref="char:EOLhyphen"/>leth,</hi> by which wee did diſtinguiſh the <hi>Ephramite</hi> from the <hi>Gileadire.</hi>
+                  </item>
+                  <item>2. <hi>Inference.</hi> The <hi>Wolfe</hi> may now come in, into Chriſts Sheepfold in the <hi>Lambs Skin,</hi> and the innocent Lambe be in danger of its life, by converſing with the Wolfe.</item>
+                  <item>3. <hi>Inference.</hi> You put us in feare I do<g ref="char:EOLhyphen"/>latry will creep in, into the Church, ſince you have baniſhed that <hi>Service Booke,</hi> which ſcared the fomentors of Haeriſies, ſo that they durſt not communicate with us.</item>
+               </list>
+               <p n="5">
+                  <pb n="23" facs="tcp:42076:12"/> 5. <hi>Memento.</hi> Remember, not any thing is contained in our Common Pray<g ref="char:EOLhyphen"/>er Booke; but either Scripture, or what conſonant to the Scripture.</p>
+               <list>
+                  <item>1. <hi>Inference.</hi> Your quarrell then muſt needs be againſt God and his word, and the upſhot without repentance, wil be the iſſues of death.</item>
+                  <item>2. <hi>Inference.</hi> You are more men<g ref="char:EOLhyphen"/>pleaſers then pleaſers of God, otherwiſe you would never forbid his word to bee read; and that which is as conſonant to it as the Doctrine you draw from your Text,</item>
+                  <item>3. <hi>Inference.</hi>
+                     <note place="margin">Heere hee reprooves them for caſheering that part of Liturgy which <hi>tati<g ref="char:EOLhyphen"/>dem verbis</hi> is the word of God.</note> You ſet an higher eſti<g ref="char:EOLhyphen"/>mate, of that, which as you ſay, is dicta<g ref="char:EOLhyphen"/>ted to you by the <hi>Spirit,</hi> than of that ſa<g ref="char:EOLhyphen"/>cred word which holy men ſpoke as they were inſpired by the <hi>Holy Ghoſt.</hi>
+                  </item>
+               </list>
+               <p n="6">6. <hi>Memento.</hi> Remember, and a<g ref="char:EOLhyphen"/>gaine I ſay remember, how they who are againſt <hi>unity of Diſcipline</hi> in the Churches ſervice, have ever beene, and ever will bee, againſt the government of this Nation, <hi>in the perſon of one.</hi>
+               </p>
+               <list>
+                  <item>1. <hi>Inference.</hi> You are common diſt<g ref="char:EOLhyphen"/>urbers <hi>of the Church and State,</hi> and have no acquatutance with that ſacred Mot<g ref="char:EOLhyphen"/>to <hi>beatiſunt pacifici Lyſimachus Nicanor
+<pb n="24" facs="tcp:42076:13"/>hath drawne out your perfect picture.</hi>
+                  </item>
+                  <item>2. <hi>Inference.</hi> As you have laid aſide the government of one Prince, <note place="margin">That Au<g ref="char:EOLunhyphen"/>thor writes the P<gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rral<g ref="char:EOLunhyphen"/>lel betw<gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>xt the Jeſuites and theſe diſſenting Miniſters.</note> ſo the perſonall power, now in power hath no good cauſe to confide in you, <hi>you are ſe<g ref="char:EOLhyphen"/>mel &amp; ſemper iidem.</hi>
+                  </item>
+                  <item>3. <hi>Inference.</hi> You are enemies to <hi>Moſes and Aaron,</hi> the Scepter and the Miter, and there is no ſafe ſanctuary, where your over powring ſynod is pre<g ref="char:EOLhyphen"/>dominant.</item>
+               </list>
+               <p n="7">7. <hi>Memento.</hi> Remember by diſ<g ref="char:EOLhyphen"/>owning the Churches ſervice, you ope<g ref="char:EOLhyphen"/>ned a gap for <hi>Enthuſiaſts</hi> who pretend the ſpirit to make Null the Goſpel.</p>
+               <list>
+                  <item>1. <hi>Inference.</hi> You have puld downe part of the hedge of the Vineyard, ſo that the little Foxes have deſtroyed di<g ref="char:EOLhyphen"/>vers choice Vines.</item>
+                  <item>2. <hi>Inference.</hi> You have made way for the daughters of Gyants, to mixe with the ſons of the Church. <hi>From a prodi<g ref="char:EOLhyphen"/>gious match, expect a prodigious birth.</hi>
+                  </item>
+                  <item>3. <hi>Inference.</hi> Your intent could not be good, the event hath made us very ſuſpicious, <hi>yea wee doe truly judge of your ſelfe ended aime, God ſo croſſea you in the iſſue.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="part">
+               <pb n="25" facs="tcp:42076:13"/>
+               <head>Your forefold Ayme.</head>
+               <p n="1">1. <hi>Aime.</hi> To quarrel with the Church for her revenewes, <hi>your want of a tem<g ref="char:EOLhyphen"/>porall eſtate</hi> made you plot <hi>vi &amp; armie</hi> for ſpirituall promotion.</p>
+               <p n="2">2. <hi>Ayme.</hi> To pull downe a Biſhop in a Dioceſſe, and ſet up a Pope in every Pariſh. <hi>A greate Pope in a little Rome.</hi>
+               </p>
+               <p n="3">3. <hi>Aime.</hi> No longer to hold <hi>Stirrup,</hi> but ſit in the Saddle. <hi>Yea, when you know not how to obey you purpoſed to command.</hi>
+               </p>
+               <p n="4">4. <hi>Aime.</hi> To ſet the Church on fire to warme your owne frozen fingers, <hi>vi<g ref="char:EOLhyphen"/>dete fratres no plus quam ſatis calefacia<g ref="char:EOLhyphen"/>tis.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>The Sextuplade unexpected Iſſue.</head>
+               <p n="1">1. <hi>
+                     <g ref="char:V">Ʋ</g>nexpected Iſſue.</hi> God hath con<g ref="char:EOLhyphen"/>founded the wiſedome of theſe worldly wiſe Miniſters, their golden ſtreame is turned into another <hi>Channell,</hi> and they that aimed to have all the command, have little more than they had before.</p>
+               <p n="2">2. <hi>
+                     <g ref="char:V">Ʋ</g>nexpected Iſſue.</hi> Their expect<g ref="char:EOLhyphen"/>ance of fat Cathedrall parſonages, is Me<g ref="char:EOLhyphen"/>tamorphoſed into leane augmentations, <hi>A juſt reward for their unjuſt Apoſta<g ref="char:EOLhyphen"/>sie.</hi>
+               </p>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="24" facs="tcp:42076:14"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="25" facs="tcp:42076:14"/>
+               <pb n="26" facs="tcp:42076:15"/>
+               <p n="3">3. <hi>
+                     <g ref="char:V">Ʋ</g>nexpected Iſſue.</hi> The hearts of the moſt of their old adhaerents, are quite a<g ref="char:EOLhyphen"/>lienated: <hi>for now their worldly minded<g ref="char:EOLhyphen"/>neſſe is diſcovered.</hi>
+               </p>
+               <p n="4">4. <hi>
+                     <g ref="char:V">Ʋ</g>nexpected Iſſue.</hi> They cannot poſſi<g ref="char:EOLhyphen"/>bly but be diſtruſted by the <hi>State, for theſe have been untrue to their churches intereſt.</hi>
+               </p>
+               <p n="5">5. <hi>
+                     <g ref="char:V">Ʋ</g>nexpected Iſſue.</hi> They cannot ex<g ref="char:EOLhyphen"/>pect to bee countenanced by the <hi>ſword man; for they are oppoſite to his principles, liberty of conſcience.</hi>
+               </p>
+               <p n="6">6. <hi>
+                     <g ref="char:V">Ʋ</g>nexpected Iſſue.</hi> They have juſt cauſe to feare, how they have loſt the love of God the Father. <hi>for they have ſlighted their Mother the Church.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>A Parralell betwixt the Papiſt and Presbyterian, ſhewing how they joyn hand in hand to deſtroy the Com<g ref="char:EOLhyphen"/>mon Prayer Booke.</head>
+               <p>The Proteſtant Divines complied it.</p>
+               <p>The Papiſt Prieſts burnt it.</p>
+               <p>The Presbyterian teares it al in peice.</p>
+               <p>The Proteſtant Biſhops ſuffered Mar<g ref="char:EOLhyphen"/>tyrdome for it.</p>
+               <p>The Papiſt Prieſts branded it abettors for Hereticks.</p>
+               <p>The Presbyterians call us Papiſts who uſe it in our Churches.</p>
+               <pb n="27" facs="tcp:42076:15"/>
+               <p> The Papiſts did not diſent it till for<g ref="char:EOLhyphen"/>bid by the Pope.</p>
+               <p>The Presbyterians uſed it, till laide a<g ref="char:EOLhyphen"/>ſide by their prevaling party.</p>
+               <p>The Proteſtants crave liberty of con<g ref="char:EOLhyphen"/>ſicence to uſe it, thought diſanuld by the Pope and their party.</p>
+               <p>The Papiſt <hi>enemies to reformation</hi> firſt ſlighted it.</p>
+               <p>The Presbyterians <hi>pretenders to</hi> refor<g ref="char:EOLhyphen"/>mation, after cuted it,</p>
+               <p>The Ancient Proteſtants of the Church of England ſtill owne it.</p>
+               <p>And thus good reader, Marke.
+<list>
+                     <item>1. How that book w<hi rend="sup">ch</hi> the Papiſts burnt — The Presbyterians as ill-intreated.</item>
+                     <item>2. For maintaining that booke, for which the Papiſts Martyred our good Biſhops — the Presbyterians have don what they can, to ſtarv <hi>us;</hi>
+                     </item>
+                     <item>3. How as the Papiſts have obeyed the popes <hi>Mandat,</hi> and left comming to <hi>Common Prayers</hi> ſo theſe Presbyterian Miniſters, ſworne to maintaine them, upon their <hi>prevailing parties</hi> intimation, left them</item>
+                     <item>4. It is worthy to be conſidered, how the Papiſt a known enemy to the Church. of England, hath not beene more an enemy
+<pb n="28" facs="tcp:42076:16"/>nemy to Common Prayers, than the Pres<g ref="char:EOLhyphen"/>byterian, who many years at ripe years was a pretended friend to our Church government <hi>till a Seotch Covenant like a fas all comet hung over his ſpirituall pre<g ref="char:EOLhyphen"/>ferment.</hi>
+                     </item>
+                  </list>
+               </p>
+               <p>And thus you ſee who are enemies to Common Prayers, a <hi>Papiſt,</hi> a <hi>Presbyte<g ref="char:EOLhyphen"/>rian:</hi> it was quickly diſcerned what would betide Chriſt, ſo ſoon as <hi>Pontius Pilate</hi> and <hi>Herod</hi> were agreed.</p>
+               <list>
+                  <item>The <hi>intravit</hi>
+                  </item>
+                  <item>The <hi>exivit</hi>
+                  </item>
+                  <item>
+                     <hi>The ſervice Booke.</hi>
+                  </item>
+               </list>
+               <p>It came in with the fall of Papicie.</p>
+               <p>It went out with the fall of Monar<g ref="char:EOLhyphen"/>chy.</p>
+               <p>It came in with the riſe of Proteſtant Biſhops.</p>
+               <p>It went out when Presbyter <hi>John</hi> came in.</p>
+               <p>It received Chriſtendom from a Prince.</p>
+               <p>It received Martyrdom by the people.</p>
+               <p>It came into the Church with a gene<g ref="char:EOLhyphen"/>rall Union.</p>
+               <p>It was forced out of the Church by a generall diviſion.</p>
+               <p>It was peace of conſcience uſhered it in.</p>
+               <pb n="29" facs="tcp:42076:16"/>
+               <p> It was a <hi>ſciſmaticall conſcience</hi> frighted it out.</p>
+            </div>
+            <div type="part">
+               <head>The ſervice Books.</head>
+               <p>The Vale.</p>
+               <p>And <gap reason="illegible: blotted" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</p>
+               <p>Farwell Uniformity in Diſcipline</p>
+               <p>Farwell unity in Doctrine,</p>
+               <p>Farwell royall Scepter</p>
+               <p>Farwell Prieſtly Miter,<note place="margin">Riches of the Church.</note>
+               </p>
+               <p>Farwell golden Trumpet.<note place="margin">Lawfull cald Miniſtry.</note>
+               </p>
+               <p>Farwell linnen Ephod.</p>
+               <p>Farwell Brotherly love</p>
+               <p>Farwell Noes Dove.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:42076:17"/>
+               <head>The Supplicat.</head>
+               <p>FAther of Spirits, Humbly I beg, thou wouldſt not permit theſe diſ<g ref="char:EOLhyphen"/>ſenting Bretheren of the Miniſtry to bee predominant, Byas their ambiti<g ref="char:EOLhyphen"/>on whilſt by thy providence, thou im<g ref="char:EOLhyphen"/>pedeſt their purpoſes. O thou who ſitteſt at the helme of Government, ſteere a<g ref="char:EOLhyphen"/>bout the hearts of thy Churches adver<g ref="char:EOLhyphen"/>ſaries, Lord ſave their ſoules, but con<g ref="char:EOLhyphen"/>found their divices, and keepe us Or<g ref="char:EOLhyphen"/>thodox Divines in the Channell of our Churches, ſet forme of ſervice, harme<g ref="char:EOLhyphen"/>leſſe in it ſelfe, decent to be uſed, and not in ought, diſcongruous to thy ſacred Word: the innocency of our intents makes us have faith to believe, that
+<pb facs="tcp:42076:17"/>thou wilt neither ſuffer them to be ex<g ref="char:EOLhyphen"/>alted too high, nor deject us too low, which is prayed for, by thy</p>
+               <closer>
+                  <signed>moſt unworthy dejected ſervant, <hi>JAMES HARVVOOD.</hi>
+                  </signed>
+               </closer>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
